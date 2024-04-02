@@ -41,6 +41,33 @@
 
 
 .category{
-    background-color: lavender;
-    display: flex;
+    /* background-color: lavender; */
+    display: grid;
+    grid-template-columns: repeat(5,150px);
+    align-items: center;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+
+.category1{
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.category1 img{
+    height: 50px;
+    width: 50px;
+}
+
+.one{
+    margin-left: 390px;
+    margin-top: 20px;
+    font-size: 10px;
 }
